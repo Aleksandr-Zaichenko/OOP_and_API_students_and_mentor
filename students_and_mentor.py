@@ -37,7 +37,7 @@ class Student:
         av_gr = f"Средняя оценка за домашние задания: {self.__average_grade()}"
         co_in_pr = f"Курсы в процессе изучения: {', '.join(self.courses_in_progress)}"
         fin_co = f"Завершенные курсы: {', '.join(self.finished_courses)}"
-        return (f"{nm}\n{snm}\n{av_gr}\n{co_in_pr}\n{fin_co}")
+        return f"{nm}\n{snm}\n{av_gr}\n{co_in_pr}\n{fin_co}"
 
 # Реализация возможности сравнивать между собой студентов по средней оценке за домашние задания    
 
